@@ -8,7 +8,7 @@ import java.util.*;
 import static jm.task.core.jdbc.util.Util.getConnection;
 
 public class UserDaoJDBCImpl implements UserDao {
-    //Добавил транзакции только в INSERT/DELETE-методы
+
     public UserDaoJDBCImpl() {
 
     }
